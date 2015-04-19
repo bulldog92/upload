@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+}
+.block{
+  height: 100%;
+}
+.block > div.row{
+  height: 100%;
+}
+.block > div.row > div {
+  overflow:auto;
+  height:100%;
+}
+.block > div.row >div:last-child {
+  height:98%;
+}
+body{
+  height: 100%;
+  font-family:'Open Sans';
+}
+.container-fluid {
+  padding: 0px;
+}
+div {
+  padding: 0px;
+}
+.animate-show {
+  line-height: 20px;
+  opacity: 1;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  color: red;
+  font-size: 16px
+
+}
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.ng-hide {
+display: none!important
+}
+
+.top_part {
+  background: #272D3A;
+}
+.search {
+  width: 80%;
+  border-radius: 25px;
+  margin:10px 0 10px 10%; 
+  overflow: hidden;
+  background: white;
+  max-width: 200px;
+}
+.search input {
+  float: right;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.search > i {
+  float: left;
+  top:4px;
+  left: 5px;
+}
+.frame {
+  width: 100%;
+  height: 100%;
+}
+.right {
+  width:50%;
+  float: left;
+  height: 98%
+}
+.rank{
+  padding: 15px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+.similarSite > img {
+  width: 15px;
+  float: left;
+  margin-right:7px; 
+  margin-top: 3px;
+}
+.similarSite {
+  width: 90%;
+  margin:10% 0 0 0;
+  text-align: justify;
+  font-size:0.8em;
+  padding: 5% 1%;
+}
+.rank div.row >div:last-child > p.textRank {
+  color: #7EAAD5;
+  text-align: right;
+}
+.category{
+color:#D42A58;
+}
+.description {
+  color: #8B95A0;
+}
+span.tittle {
+  color: #22344C;
+  font-size: 31px;
+}
+#main_part > p > img{
+  position: relative;
+  top: -6px;
+  margin-right: 13px;
+  width: 15px;
+}
+.rank div.row >div:first-child > p.textRank {
+  color:#8B95A0;
+}
+h1 {
+  font-size: 30px;
+}
+hr {
+  margin: 10px 0;
+  width: 33%
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .similarSite {
+    font-size:1em;
+  }
+}
+@media screen and (max-width:768px){
+  .similarSite {
+    font-size: 1.2em;
+  }
+    .block > div.row > div {
+  overflow:visible;
+  height: auto;
+}
+}
+
